@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="planets_array">
+        <item>十进制计算器</item>
+        <item>十六进制计算器</item>
+        <item>贷款计算器</item>
+        <item>汇率计算器</item>
+    </string-array>
+
+    <string name="app_name">Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="carhouse">房贷/车贷</string>
+    <string name="dec">十进制计算器</string>
+    <string name="hex">十六进制计算器</string>
+    <string name="rate">单位/汇率换算</string>
+    <string name="title_activity_activity_dec">Activity_dec</string>
+    <string name="title_activity_activity_hex">Activity_hex</string>
+    <string name="title_activity_activity_loan">Activity_loan</string>
+    <string name="title_activity_activity_cov">Activity_cov</string>
+    <string name="title_activity_activity_result">Activity_result</string>
+    
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="sev">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="point">.</string>
+    <string name="complex">i</string>
+    <string name="equal">=</string>
+    <string name="add">+</string>
+    <string name="sub">-</string>
+    <string name="mul">*</string>
+    <string name="div">/</string>
+    <string name="sqrt">√</string>
+    <string name="ce">CE</string>
+    <string name="ans"></string>
+    <string name="input"></string>
+    <string name="backspace">←</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_activity02">Activity02</string>
+    <string name="title_activity_activity03">Activity03</string>
+    <string name="title_activity_activity04">Activity04</string>
+    <string name="btn_dec">十进制运算复数运算</string>
+    <string name="btn_hex">十六进制运算</string>
+    <string name="btn_loan">贷款换算</string>
+    <string name="btn_rate">汇率换算</string>
+    <string name="btn_Lbra">(</string>
+    <string name="btn_Rbra">)</string>
+    <string name="btn_Square">^2</string>
+    <string name="rbtn_house">房贷</string>
+    <string name="rbtn_car">车贷</string>
+    <string name="tv_Type">贷款类型</string>
+    <string name="tv_busloan">商业性(元):</string>
+    <string name="tv_publoan">公积金(元):</string>
+    <string name="tv_year">按揭年数:</string>
+    <string name="tv_rate">贷款利率:</string>
+    <string name="tv_repay">还款方式:</string>
+    <string name="rbtn_capital">等额本金</string>
+    <string name="rbtn_capitalint">等额本息</string>
+    <string name="tv_loanresult">查看结果:</string>
+    <string name="tv_unit">元</string>
+    <string name="tv_paytotal">还款总额:</string>
+    <string name="tv_interest">支付利息款:</string>
+    <string name="tv_month">月均还款:</string>
+    <string name="tv_paytotalshow"></string>
+    <string name="tv_interestshow"></string>
+    <string name="tv_monthshow"></string>
+    <string name="tv_paytype">还款方式:</string>
+    <string name="tv_information">换算类型:</string>
+    <string name="tv_ipRate">" "</string>
+    <string name="tv_opRate">" "</string>
+    <string name="A">A</string>
+    <string name="B">B</string>
+    <string name="C">C</string>
+    <string name="D">D</string>
+    <string name="E">E</string>
+    <string name="F">F</string>
+    <string name="tv_percent">%</string>
+    <string name="rbtn_bus">商业贷款</string>
+    <string name="rbtn_found">公积金贷款</string>
+    <string name="rbtn_combined">组合型贷款</string>
+    <string name="btn_start">计算</string>
+    <string name="btn_end">重置</string>
+    <string name="title_activity_activity05">Activity05</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="tv_loantotal1">贷款总额:</string>
+    <string name="tv_monthnum">贷款月数:</string>
+    <string name="tv_busrate">商业(%):</string>
+    <string name="tv_pubrate">公积金(%):</string>
+    <string name="btn_again">重置</string>
+    <string name="btn_meue">主菜单</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="tv_tranf">-></string>
+    <string name="tv_result"></string>
+    <string name="tranform">换算</string>
+
+</resources>

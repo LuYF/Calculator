@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spnloantype">
+        <item >商业贷款</item>
+        <item>公积金贷款</item>
+        <item >组合型贷款</item>
+    </string-array>
+</resources>

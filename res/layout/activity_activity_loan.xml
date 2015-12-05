@@ -1,0 +1,193 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <TextView
+        android:id="@+id/tv_Type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/tv_Type"
+        android:textSize="18sp" />
+    
+    <Spinner
+        android:id="@+id/spn_loantype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_Type"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/btn_start" />
+    
+    <TextView
+        android:id="@+id/tv_repay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_Type"
+        android:layout_below="@+id/tv_Type"
+        android:layout_marginTop="50dp"
+        android:text="@string/tv_repay"
+        android:textSize="18sp"  />
+    
+    <Spinner
+        android:id="@+id/spn_paytype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignLeft="@+id/spn_loantype"
+        android:layout_alignBottom="@+id/tv_repay"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/spn_loantype" />
+    
+    <TextView
+        android:id="@+id/tv_busloan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_Type"
+        android:layout_below="@+id/tv_repay"
+        android:layout_marginTop="30dp"
+        android:text="@string/tv_busloan" 
+        android:textSize="17sp" />
+
+	<EditText
+        android:id="@+id/et_busloan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spn_paytype"
+        android:layout_below="@+id/spn_paytype"
+        android:layout_marginTop="15dp"
+        android:layout_alignBottom="@+id/tv_busloan"
+        android:ems="10" />
+    
+	<TextView
+        android:id="@+id/tv_publoan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_Type"
+        android:layout_below="@+id/tv_busloan"
+        android:layout_marginTop="30dp"
+        android:text="@string/tv_publoan"
+        android:textSize="17sp"  />
+
+	<EditText
+        android:id="@+id/et_publoan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_busloan"
+        android:layout_below="@+id/et_busloan"
+        android:layout_alignBottom="@+id/tv_publoan"
+        android:ems="10" />
+	
+	<TextView
+        android:id="@+id/tv_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_Type"
+		android:layout_below="@+id/tv_publoan"
+        android:layout_marginTop="50dp"
+        android:text="@string/tv_year"
+        android:textSize="18sp"  />
+	
+	<Spinner
+        android:id="@+id/spn_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spn_loantype"
+        android:layout_alignRight="@+id/spn_loantype"
+        android:layout_alignBottom="@+id/tv_year"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/et_publoan" />	
+        
+	<TextView
+        android:id="@+id/tv_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_Type"
+        android:layout_below="@+id/tv_year"
+        android:layout_marginTop="50dp"
+        android:text="@string/tv_rate"
+        android:textSize="18sp"  />
+	
+	<Spinner
+        android:id="@+id/spn_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      	android:layout_alignLeft="@+id/spn_loantype"
+        android:layout_alignRight="@+id/spn_loantype"
+        android:layout_alignBottom="@+id/tv_rate"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/spn_year" />
+        
+    <TextView
+        android:id="@+id/tv_busrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_Type"
+        android:layout_below="@+id/tv_rate"
+        android:layout_marginTop="30dp"
+        android:text="@string/tv_busrate"
+        android:textSize="17sp"  />
+
+    <EditText
+        android:id="@+id/et_busrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_busloan"
+        android:layout_below="@+id/spn_rate"
+        android:layout_alignBottom="@+id/tv_busrate"
+        android:layout_marginTop="15dp"
+        android:ems="10" />
+	
+    <TextView
+        android:id="@+id/tv_pubrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_Type"
+        android:layout_below="@+id/tv_busrate"
+        android:layout_marginTop="30dp"
+        android:text="@string/tv_pubrate" 
+        android:textSize="17sp" />
+    
+	<EditText
+        android:id="@+id/et_pubrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_busloan"
+        android:layout_below="@+id/et_busrate"
+        android:layout_alignBottom="@+id/tv_pubrate"
+        android:layout_marginTop="15dp"
+        android:ems="10" />
+	
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#00BCA4"
+        android:text="@string/btn_start" />
+              
+    <Button
+        android:id="@+id/btn_meue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       	android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/btn_again" 
+        android:layout_toRightOf="@+id/btn_again"  
+        android:background="#00BCA4"     
+        android:text="@string/btn_meue" />
+
+    <Button
+        android:id="@+id/btn_again"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_start"
+        android:layout_toRightOf="@+id/btn_start"
+        android:layout_centerHorizontal="true"
+        android:background="#00BCA4"
+        android:text="@string/btn_again" />
+
+</RelativeLayout>

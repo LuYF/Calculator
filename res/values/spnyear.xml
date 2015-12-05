@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spnyear">
+            <item>1年(12期)</item>
+            <item>2年(24期)</item>
+            <item>3年(36期)</item>
+            <item>4年(48期)</item>
+            <item>5年(60期)</item>
+            <item>6年(72期)</item>
+            <item>7年(84期)</item>
+            <item>8年(96期)</item>
+            <item>9年(108期)</item>
+            <item>10年(120期)</item>
+            <item>11年(132期)</item>
+            <item>12年(144期)</item>
+            <item>13年(156期)</item>
+            <item>14年(168期)</item>
+            <item>15年(180期)</item>
+            <item>16年(192期)</item>
+            <item>17年(204期)</item>
+            <item>18年(216期)</item>
+            <item>19年(228期)</item>
+            <item>20年(240期)</item>
+            <item>21年(252期)</item>
+            <item>22年(264期)</item>
+            <item>23年(276期)</item>
+            <item>24年(288期)</item>
+            <item>25年(300期)</item>
+            <item>26年(312期)</item>
+            <item>27年(324期)</item>
+            <item>28年(336期)</item>
+            <item>29年(348期)</item>
+            <item>30年(360期)</item>
+    </string-array>
+</resources>

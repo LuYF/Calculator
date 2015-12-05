@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="select">
+        <item>长度</item>
+	    <item>面积</item>
+	    <item>体积</item>
+	    <item>重量</item>
+	    <item>汇率</item>
+	    
+	</string-array>
+	<string-array name="spn_length">
+	    <item>千米(km)</item>
+	    <item>米(m)</item>
+	    <item>分米(dm)</item>
+	    <item>厘米(cm)</item>
+	    <item>毫米(mm)</item>
+	</string-array> 
+	<string-array name="spn_size">
+	    <item>平方千米(km^2)</item>
+	    <item>平方米(m^2)</item>
+	    <item>平方分米(dm^2)</item>
+	    <item>平方厘米(cm^2)</item>
+	</string-array>
+	<string-array name="spn_volume">
+	    <item>立方米(m^3)</item>
+	    <item>立方分米(dm^3)</item>
+	    <item>立方厘米(cm^3)</item>
+	    <item>立方毫米(mm^3)</item>
+	</string-array>
+	<string-array name="spn_weight">
+	    <item>吨(t)</item>
+	    <item>千克(kg)</item>
+	    <item>克(g)</item>	    
+		<item>毫克(mg)</item>
+	</string-array>
+	<string-array name="spn_rate">
+	    <item>人民币CNY</item>
+	    <item>美元USD</item>
+	    <item>日元JPY</item>
+	    <item>韩元KER</item>
+	    <item>港元HKD</item>
+	    <item>欧元EUR</item>
+	</string-array>
+</resources>

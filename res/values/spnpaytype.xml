@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spnpaytype">
+        <item>等额本息</item>
+        <item>等额本金</item>
+    </string-array>
+</resources>

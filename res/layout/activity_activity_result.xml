@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/tv_paytotalshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_paytotal"
+        android:layout_alignBottom="@+id/tv_paytotal"
+        android:layout_alignLeft="@+id/tv_loantotalshow"
+        android:text="TextView"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_interestshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_interest"
+        android:layout_alignBottom="@+id/tv_interest"
+        android:layout_alignLeft="@+id/tv_paytotalshow"
+        android:text="TextView"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_monthnumshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_monthnum"
+        android:layout_alignBottom="@+id/tv_monthnum"
+        android:layout_alignLeft="@+id/tv_interestshow"
+        android:text="TextView"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_month"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/btn_end"
+        android:layout_alignParentLeft="true"
+        android:background="#00BCA4" />
+
+    <TextView
+        android:id="@+id/tv_monthshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_monthnumshow"
+        android:layout_below="@+id/tv_monthnum"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_month"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/tv_monthshow"
+        android:layout_alignBottom="@+id/tv_monthshow"
+        android:layout_alignLeft="@+id/tv_monthnum"
+        android:text="@string/tv_month"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_loantotalshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_loantotal1"
+        android:layout_alignBottom="@+id/tv_loantotal1"
+        android:layout_toRightOf="@+id/tv_loanresult"
+        android:text="TextView"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_loanresult"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/tv_loanresult"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tv_loantotal1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignRight="@+id/tv_interest"
+        android:layout_below="@+id/tv_loanresult"
+        android:text="@string/tv_loantotal1"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_paytotal"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignRight="@+id/tv_interest"
+        android:layout_below="@+id/tv_loantotal1"
+        android:layout_marginTop="24dp"
+        android:text="@string/tv_paytotal"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_interest"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_paytotal"
+        android:layout_marginTop="19dp"
+        android:text="@string/tv_interest"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_monthnum"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignRight="@+id/tv_interest"
+        android:layout_below="@+id/tv_interest"
+        android:layout_marginTop="29dp"
+        android:text="@string/tv_monthnum"
+        android:textSize="20dp" />
+
+</RelativeLayout>

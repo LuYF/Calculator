@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="spnrate">
+            <item>15年10月24日利率上限(1.1倍)</item>
+            <item>15年10月24日利率下限(85折)</item>
+            <item>15年10月24日利率下限(7折)</item>
+            <item>15年10月24日基准利率</item>
+            <item>15年8月26日利率上限(1.1倍)</item>
+            <item>15年8月26日利率下限(85折)</item>
+            <item>15年8月26日利率下限(7折)</item>
+            <item>15年8月26日基准利率</item>
+			<item>15年6月28日利率上限(1.1倍)</item>
+           	<item>15年6月28日利率下限(85折)</item>
+            <item>15年6月28日利率下限(7折)</item>
+            <item>15年6月28日基准利率</item>
+           	<item>15年5月11日利率上限(1.1倍)</item>
+           	<item>15年5月11日利率下限(85折)</item>
+            <item>15年5月11日利率下限(7折)</item>
+            <item>15年5月11日基准利率</item>
+            <item>15年3月1日利率上限(1.1倍)</item>
+           	<item>15年3月1日利率下限(85折)</item>
+            <item>15年3月1日利率下限(7折)</item>
+            <item>15年3月1日基准利率</item>
+            <item>14年11月22日利率上限(1.1倍)</item>
+           	<item>14年11月22日利率下限(85折)</item>
+            <item>14年11月22日利率下限(7折)</item>
+            <item>14年11月22日基准利率</item>
+ 
+        </string-array>
+</resources>
